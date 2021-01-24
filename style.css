@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  height: 9000px;
+  
   font-family: sans-serif;
 }
 
@@ -325,5 +325,141 @@ color: rgb(70, 70, 70);
 
 }
 
-/* .search-bar span{
-} */
+#branch{
+  padding-bottom: 0;
+}
+
+.branch-search input{
+  margin-right: 20px;
+  text-align: center;
+  /* padding-left: 10px; */
+  border: 3px solid black;
+  border-radius: 4px;
+  width: 380px;
+  height: 100px;
+  font-size: 25px;
+  outline: none;
+}
+
+.branch-search button{
+  background-color: #00a94e;
+  border: 3px solid #00a94e;
+  border-radius: 4px;
+  height: 105px;
+  width: 160px;
+  outline: none;
+}
+
+/* Tips Section */
+
+.tips-guide{
+  color: rgb(70, 70, 70);
+  padding-top: 180px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.tips-guide h2{
+  margin-bottom: 0;
+}
+
+.tips-guide p{
+  padding-top: 30px;
+}
+
+.tips-holder{
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  margin: 0 150px;
+}
+
+.tip{
+text-align: center;
+}
+
+.tip img{
+  width: 200px;
+  padding: 15px;
+}
+
+.tip p{
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.4em;
+}
+
+/* Footer Section */
+
+.footer-section{
+  margin: 0 80px;
+}
+
+.foot-top{
+  display: flex;
+  flex-direction: row;
+}
+
+.ftop{
+  display: flex;
+  width: 33.33%;
+  padding-left: 25px;
+}
+
+.ftop ul{
+  padding: 0 100px 20px 0;
+}
+
+.ftop li{
+list-style: none;
+text-align: left;
+line-height: 2.5em;
+}
+
+.ftop a{
+  text-decoration: none;
+  color: inherit;
+}
+.soc-icons{
+display: flex;
+}
+
+.soc-icons img{
+  width: 30px;
+  margin: 5px;
+}
+
+.foot-btm, .footbleft{
+display: flex;
+}
+
+.foot-btm{
+  padding: 0 0 0 100px ;
+}
+
+.foot-btm ul{
+  padding: 0;
+  display: flex;
+}
+
+.foot-btm li{
+  list-style: none;
+  padding-right: 50px ;
+}
+
+.foot-btm a{
+  
+  text-decoration: none;
+  color: inherit;
+  }
+
+
+.footbright{
+  display: flex;
+  justify-content: right;
+}
+
+#legal{
+  position: absolute;
+  right: 0;
+  }
