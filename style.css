@@ -1,18 +1,23 @@
 body{
   margin: 0;
   padding: 0;
-  height: 1000px;
+  height: 2000px;
   font-family: sans-serif;
 }
 
+.green{
+  color: #1f9033;
+}
 
+.grey{
+  color: rgb(70, 70, 70);
+}
 
 /* Navigation Bar */
 
 .navBar{
   position: fixed;
   display: flex;
-  /* flex-direction: column; */
   width: 100%;
   height: 100px;
   background-color: white;
@@ -104,3 +109,90 @@ border: 3px solid grey;
 
 /* Search Section */
 
+.search-head{
+  display: flex;
+}
+
+.search-bar{
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+
+.form-items{
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar span{
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.search-bar input{
+  margin-right: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-left: 30px;
+  border: 3px solid black;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+  font-size: 50px;
+  outline: none;
+}
+
+.search-bar button{
+  background-color: #00a94e;
+  border: 3px solid #00a94e;
+  border-radius: 4px;
+  height: 85px;
+  width: 160px;
+  outline: none;
+}
+
+.search-btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Trust Pilot Section */
+
+.trust-pilot{
+  margin-top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trust-placeholder img{
+width: 600px;
+}
+
+/* Three Steps Section */
+
+.three-instruct{
+  margin-top: 110px;
+text-align: center;
+}
+.three-instruct span{
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.horizontal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line{
+  margin-top: 20px;
+  border-top: 1px solid green;
+  width: 100px;
+}
