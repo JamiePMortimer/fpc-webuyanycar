@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  height: 3000px;
+  height: 9000px;
   font-family: sans-serif;
 }
 
@@ -269,3 +269,61 @@ margin-bottom: 10px;
 
 /* Segments Section */
 
+.segments{
+margin: 130px 180px 0 180px ;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: rgb(70, 70, 70);
+}
+
+.seg-hold{
+  line-height: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.seg-hold img{
+  width: 255px;
+  padding-bottom: 15px;
+}
+
+.seg-hold h2{
+  font-size: 23px;
+  margin-bottom: 0;
+}
+
+.seg-hold p{
+  padding-top: 20px;
+  padding-bottom: 160px;
+}
+
+.para-top{
+  line-height: 1.5em;
+  padding-top: 50px;
+}
+
+.para{
+  padding-top: 20px;
+}
+
+.pod{
+  padding-top: 170px;
+}
+
+.pod img{
+  width: 220px;
+  padding-bottom: 40px;
+}
+
+.treefiddy{
+  font-size: 23px;
+  font-weight: 700;
+
+}
+
+/* .search-bar span{
+} */
