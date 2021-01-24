@@ -196,3 +196,53 @@ text-align: center;
   border-top: 1px solid green;
   width: 100px;
 }
+
+.Three-cars{
+  display: flex;
+  margin: 75px 200px;
+  color: rgb(70, 70, 70);
+}
+
+.car{
+  width: 370px;
+}
+
+.car h3{
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+.car p{
+  margin-top: 5px;
+}
+
+/* Schofe Section */
+
+.schofe{
+  display: flex;
+  justify-content: center;
+  margin-top: 190px;
+}
+
+.schofe-cup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(70, 70, 70);
+}
+
+.schofe-cup img{
+width: 250px;
+margin-bottom: 10px;
+}
+
+.schofe-cup h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.schofe-cup p{
+  margin: 0;
+}
