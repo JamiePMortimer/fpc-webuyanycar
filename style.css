@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+}
+
+
+
+/* Navigation Bar */
+
+.navBar{
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  /* background-color: aquamarine; */
+  border-bottom: 3px solid rgb(212, 211, 211);
+}
+
+/* Covid Section */
