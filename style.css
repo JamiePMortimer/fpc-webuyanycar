@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  height: 2000px;
+  height: 3000px;
   font-family: sans-serif;
 }
 
@@ -246,3 +246,26 @@ margin-bottom: 10px;
 .schofe-cup p{
   margin: 0;
 }
+
+/* Selling Points Section */
+
+.selling-points{
+  margin: 10px 165px;
+  list-style-image:url(/images/tick.png);
+  display: flex;
+  color: rgb(70, 70, 70);
+}
+
+.sell-col{
+  margin: 15px 50px;
+}
+.sell-col h3{
+  font-size: 16px;
+}
+
+.sell-col p{
+  line-height: 1.45em;
+}
+
+/* Segments Section */
+
