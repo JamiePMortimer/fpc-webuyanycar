@@ -10,10 +10,69 @@ body{
 
 .navBar{
   position: fixed;
+  display: flex;
+  /* flex-direction: column; */
   width: 100%;
   height: 100px;
   /* background-color: aquamarine; */
-  border-bottom: 3px solid rgb(212, 211, 211);
+  border-bottom: 3px solid rgb(233, 233, 233);
+}
+
+.logo{
+  margin: 20px 0 0 85px;
+}
+
+.logo img{
+  width: 220px;
+}
+
+.nav-search{
+  width: 800px;
+  height: 100%;
+}
+
+.nav-menu{
+  width: 305px;
+  height: 100%;
+}
+.nav-menu button{
+  cursor: pointer;
+  margin: 45px 0 0 145px ;
+  background: none;
+  border: none;
+  padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+left: 20px;
+}
+
+.menu{
+  width: 28px;
+  height: 28px;
+}
+
+.menu-bar1{
+  width: 17px;
+  height: 2px;
+  margin: 2px 0;
+  background-color: black;
+  transition: 0.25s ease-out;
+}
+.menu-bar2{
+  width: 12px;
+  height: 2px;
+  margin: 2px 0 2px 5px;
+  background-color: black;
+  transition: 0.25s ease-out;
+}
+.menu-bar3{
+  width: 17px;
+  height: 2px;
+  margin: 2px 0;
+  background-color: black;
+  transition: 0.25s ease-out;
 }
 
 /* Covid Section */
